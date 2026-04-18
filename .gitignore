@@ -6,3 +6,6 @@ __pycache__/
 *.py[cod]
 *.spec
 docs/
+outputs/
+template_library/
+templates_initialized/
