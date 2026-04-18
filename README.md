@@ -60,6 +60,25 @@ pip install -r docs/requirements.txt
 pip install -r docs/requirements-dev.txt
 ```
 
+## 安装包使用方式（推荐业务用户）
+
+仓库已提供 Windows 安装包：
+
+- `dist/AutoFill 1.0.1.zip`
+
+使用步骤：
+
+1. 从仓库下载 `dist/AutoFill 1.0.1.zip`
+2. 解压到任意目录（建议非系统盘）
+3. 进入解压后的 `AutoFill` 目录
+4. 双击可执行文件启动程序
+5. 按界面指引选择源文档与模板后生成结果文档
+
+说明：
+
+- 安装包模式通常不需要本机额外安装 Python
+- 模型服务仍依赖环境变量（见下方“必要环境变量”）
+
 ## 必要环境变量
 
 运行前请在系统或终端中预置以下变量（UI 不提供手动配置入口）：
