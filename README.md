@@ -62,7 +62,11 @@ pip install -r docs/requirements-dev.txt
 
 ## 安装包使用方式（推荐业务用户）
 
-建议从 GitHub Releases 下载对应版本安装包（例如 `AutoFill x.y.z.zip`），解压后双击 `AutoFill.exe` 启动。
+当前仓库已提供安装包：
+
+- `dist/AutoFill 1.0.1.zip`
+
+使用时可直接在仓库中下载该 zip，解压后双击 `AutoFill.exe` 启动。
 
 说明：
 
@@ -101,7 +105,7 @@ python -m app.main
 
 ### 方式 B：安装包启动（业务用户）
 
-1. 从 Releases 下载并解压安装包
+1. 从仓库下载并解压 `dist/AutoFill 1.0.1.zip`
 2. 进入解压目录 `AutoFill`
 3. 双击 `AutoFill.exe` 启动
 
